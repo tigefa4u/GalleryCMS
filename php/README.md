@@ -6,19 +6,6 @@ Info
 
 GalleryCMS is a free image gallery CMS based on the CodeIgniter 2.1 framework. It is an easy-to-use image gallery CMS that generates JSON and XML feeds that image galleries can consume.
 
-Running on OpenShift
-----------------------------
-
-Create an account at http://openshift.redhat.com/ and install the client tools (run 'rhc setup' first)
-
-Create a php-5.3 application (you can call your application whatever you want)
-
-    rhc app create gallerycms php-5 mysql-5 --from-code=https://github.com/tigefa4u/GalleryCMS
-
-That's it, you can now checkout your application at:
-
-    http://gallerycms-$yournamespace.rhcloud.com
-
 Features
 --------
 
